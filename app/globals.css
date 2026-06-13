@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.container {
+  @apply px-4 mx-auto;
+}
+
+html, body { height: 100%; }
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+/* basic layout */
+.ml-64 { margin-left: 16rem; }
+
+.card { @apply bg-white dark:bg-slate-800 rounded shadow p-4; }
